@@ -34,8 +34,14 @@ button:hover {
     background-color: #0056b3;
 }
 
+h2 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
 h3 {
     color: #333;
+    margin-top: 20px;
 }
 
 @media (max-width: 600px) {
