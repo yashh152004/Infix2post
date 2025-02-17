@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infix to Postfix Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Infix & Postfix Converter</h2>
+        <input type="text" id="expression" placeholder="Enter expression">
+        <select id="conversionType">
+            <option value="infixToPostfix">Infix to Postfix</option>
+            <option value="postfixToInfix">Postfix to Infix</option>
+        </select>
+        <button onclick="convertExpression()">Convert</button>
+        <h3>Result: <span id="result"></span></h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
