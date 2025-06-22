@@ -1,4 +1,3 @@
-:
 
 🧮 Infix to Postfix Converter Web App
 This is a simple, responsive, and interactive web application that converts Infix expressions to Postfix (Reverse Polish Notation) using JavaScript. Ideal for students, educators, and developers learning about expression parsing and stack-based algorithms.
